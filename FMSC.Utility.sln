@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSCUtil_FF35", "FMSC.Utility\FMSCUtil_FF35.csproj", "{F882E97D-A121-41F6-916F-8FA956F84BCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSC.Utility", "FMSC.Utility\FMSC.Utility.csproj", "{F882E97D-A121-41F6-916F-8FA956F84BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSCUtil_CF35", "FMSC.Utility\FMSCUtil_CF35.csproj", "{9FB2BD45-C3F1-44C2-9EFF-427D032CBB44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSC.Utility_CF35", "FMSC.Utility\FMSC.Utility_CF35.csproj", "{9FB2BD45-C3F1-44C2-9EFF-427D032CBB44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMCSUtil_CF20", "FMSC.Utility\FMCSUtil_CF20.csproj", "{2B5BA2D4-7D46-4BF3-A775-2A0F849BE92B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMSC.Utility_CF20", "FMSC.Utility\FMSC.Utility_CF20.csproj", "{2B5BA2D4-7D46-4BF3-A775-2A0F849BE92B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
