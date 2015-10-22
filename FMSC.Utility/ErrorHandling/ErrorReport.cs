@@ -48,7 +48,11 @@ namespace FMSC.Utility.ErrorHandling
                 Assembly[] assemblies = AppDomain.CurrentDomain.GetAssemblies();
                 foreach (Assembly ass in assemblies)
                 {
-                    builder.AppendFormat(" {0}\r\n CodeBase: {1}\r\n---------\r\n", ass.FullName, ass.CodeBase);
+                    string codebase = "unknown";
+                    try { codebase = ass.CodeBase; }
+                    catch { }
+
+                    builder.AppendLine(ass.ToString() + " CodeBase: " + codebase);
                 }
                 return builder.ToString();
             }
