@@ -74,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo_WM5_CF20.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ErrorHandling\ErrorDisplayWindow.Mobile.resx">
+      <DependentUpon>ErrorDisplayWindow.Mobile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDeviceInfo.resx">
       <DependentUpon>FormDeviceInfo.cs</DependentUpon>
       <SubType>Designer</SubType>
